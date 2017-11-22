@@ -1,1 +1,9 @@
-込込込込亜666666
+Sparse checkout
+
+$ git init <project>
+$ cd <project>
+$ git remote add origin ssh://<user>@<repository's url>
+$ git config core.sparsecheckout true
+$ echo "path1/" >> .git/info/sparse-checkout
+$ echo "path2/" >> .git/info/sparse-checkout
+$ git pull origin master
