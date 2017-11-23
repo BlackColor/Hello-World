@@ -7,3 +7,7 @@ $ git config core.sparsecheckout true
 $ echo "path1/" >> .git/info/sparse-checkout
 $ echo "path2/" >> .git/info/sparse-checkout
 $ git pull origin master
+
+
+submit
+$ git branch --set-upstream-to=origin/master
