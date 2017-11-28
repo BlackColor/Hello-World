@@ -1,4 +1,4 @@
-Sparse checkout
+Sparse checkout  稀疏检出（检出相应目录下的文件）
 
 $ git init <project>
 $ cd <project>
@@ -9,5 +9,17 @@ $ echo "path2/" >> .git/info/sparse-checkout
 $ git pull origin master
 
 
-submit
+submit   提交修改过的文件
+$ git status//检查状态
+
+$ git add -A//添加修改过的文件
+
+$ git commit -m "提交的内容注释"
+
 $ git branch --set-upstream-to=origin/master
+命令行显示（Branch 'master' set up to track remote branch 'master' from 'origin'）
+
+$ git pull
+命令行显示(Already up to date.)
+
+$ git push 
